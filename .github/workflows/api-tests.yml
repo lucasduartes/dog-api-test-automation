@@ -75,5 +75,5 @@ jobs:
         uses: actions/upload-artifact@v7
         with:
           name: allure-report-${{ matrix.os }}
-          path: target/site/allure-maven
-          if-no-files-found: warn
+          path: target/site/allure-maven-plugin
+          if-no-files-found: error
