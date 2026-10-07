@@ -1,0 +1,22 @@
+{
+  "type": "object",
+  "required": [
+    "message",
+    "status",
+    "code"
+  ],
+  "properties": {
+    "message": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "error"
+      ]
+    },
+    "code": {
+      "type": "integer"
+    }
+  }
+}

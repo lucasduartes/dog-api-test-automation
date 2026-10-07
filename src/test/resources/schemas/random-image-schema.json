@@ -1,0 +1,18 @@
+{
+  "type": "object",
+  "required": [
+    "message",
+    "status"
+  ],
+  "properties": {
+    "message": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "success"
+      ]
+    }
+  }
+}

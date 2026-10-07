@@ -1,0 +1,24 @@
+{
+  "type": "object",
+  "required": [
+    "message",
+    "status"
+  ],
+  "properties": {
+    "message": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "success"
+      ]
+    }
+  }
+}
